@@ -1,0 +1,27 @@
+nav {
+    display:flex;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.links {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    margin-right: 10px;
+}
